@@ -11,9 +11,6 @@ function App() {
       <div className="ml-[55px] md:ml-[260px]">
         <Routers />
       </div>
-      <div className="h-full w-full md:block hidden  ">
-        <Info />
-      </div>
     </div>
   );
 }
