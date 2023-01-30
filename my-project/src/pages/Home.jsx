@@ -23,10 +23,10 @@ function Home() {
 
   return (
     <div className="w-full ">
-      <div className="bg-[#010100]/30 backdrop-blur-md w-full  md:w-[430px] fixed z-20 top-0 py-7 px-4  text-[#d7d8db] flex justify-start md:justify-center items-center  ">
-        <span className="font-semibold text-lg text-center">Home</span>
+      <div className="bg-[#010100]/30 backdrop-blur-md w-[368px]  md:w-[440px] fixed z-20 top-0 py-7 px-4  text-[#d7d8db] flex justify-center items-center  ">
+        <span className="font-semibold text-lg text-center mr-14 md:mr-0">Home</span>
       </div>
-      <div className="w-full h-full flex pt-20 items-center justify-center">
+      <div className="w-full h-full flex pt-20 items-center justify-center ">
         {result.length > 0 ? (
           <div className="pl-4">
             {result.map((topData) => (

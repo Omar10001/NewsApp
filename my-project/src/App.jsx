@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App bg-[#010100] relative md:w-[900px] h-full min-h-screen flex gap-4">
       <NavBar />
-      <div className="-ml-[123px] md:ml-[260px]">
+      <div className="ml-[55px] md:ml-[260px]">
         <Routers />
       </div>
       <div className="h-full w-full md:block hidden  ">

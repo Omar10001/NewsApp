@@ -31,11 +31,11 @@ function AllNews() {
 
   return (
     <div className="">
-      <div className="bg-[#010100]/30 backdrop-blur-md fixed z-20 top-0 py-7 px-4  ">
+      <div className="bg-[#010100]/30 backdrop-blur-md w-[360px]  md:w-[440px] fixed z-20 top-0 py-7 px-4  text-[#d7d8db] flex justify-center items-center ">
         <input
           type="text"
           placeholder="Search Source"
-          className="px-3 rounded-full w-[413px] h-9 bg-[#282d2f]  text-[#d7d8db]    "
+          className="px-3 rounded-full w-[413px] h-9 bg-[#282d2f]  text-[#d7d8db] focus:outline-[#ff9900] focus:outline-none mr-16 md:mr-0     "
           value={sourceTerm}
           onChange={(e) => setSourceTerm(e.target.value)}
         />
@@ -49,8 +49,8 @@ function AllNews() {
             ;
           </div>
         ) : (
-          <div className="h-full w-96 min-h-screen flex justify-center items-center pl-4 ">
-            <HashLoader color="#d7d8db" size={40} speedMultiplier={2} />
+          <div className="h-full  w-[290px]  min-h-screen flex justify-center items-center pl-4 text-white ">
+            <span className="font-light" >Type your prefered source </span>
           </div>
         )}
         ;
